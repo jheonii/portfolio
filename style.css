@@ -239,7 +239,7 @@ p {
 }
 
 .job__logo {
-  width: 250px;
+  width: 290px;
   margin-right: 10px;
 }
 
@@ -386,8 +386,8 @@ p {
 }
 
 .project__img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 80%;
+  /* max-height: 100%; */
   align-self: center;
 }
 
@@ -599,6 +599,11 @@ p {
 
   .project {
     flex-grow: 1;
+  }
+
+  .project__img {
+    max-width: 52%;
+    /* max-height: 100%; */
   }
 
   .testimonial {
