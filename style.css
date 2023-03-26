@@ -200,6 +200,10 @@ p {
   margin: 80px 0;
 }
 
+.major {
+  width: 300px;
+}
+
 .major__icon {
   width: 170px;
   height: 170px;
@@ -444,7 +448,7 @@ p {
 .testimonial__avatar {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .testimonial__avatar:nth-child(odd) {
@@ -568,6 +572,9 @@ p {
 
   .major {
     margin-bottom: 30px;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
   }
 
   .job {
